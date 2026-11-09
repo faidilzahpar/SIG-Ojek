@@ -1,0 +1,15 @@
+
+# Ignore configuration and agent instructions
+AGENT.md
+ARTIKEL_MEDIUM.md
+README.md
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIG Ojek Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main Application Wrapper -->
+  <main class="app-layout">
+    <!-- Sidebar Information -->
+    <aside class="sidebar-panel">
+      <!-- Card: Ringkasan Tarif -->
+      <section class="card">
+        <div class="fare-banner">
+          <span class="fare-label">Total Tarif Perjalanan</span>
+          <span class="fare-amount" id="val-total-tarif">Rp 10.000</span>
+        </div>
+        <div class="metrics-grid">
+          <div class="metric-item">
+            <span class="metric-caption">Jarak Tempuh</span>
+            <span class="metric-value" id="val-jarak">3,3 km</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-caption">Estimasi Waktu</span>
+            <span class="metric-value" id="val-waktu">10 Menit</span>
+          </div>
+        </div>
+      </section>
+    </aside>
+
+    <!-- Map Area Container -->
+    <section class="map-view-panel">
+      <div id="peta" class="map-container"></div>
+    </section>
+  </main>
+
+  <!-- ES6 Module Script -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
